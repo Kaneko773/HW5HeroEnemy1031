@@ -49,11 +49,13 @@ int main()
 
 	while (conti) {
 		if (heroEnhaLimit <= 0) {
+			printf("%sのパラメーターが戻りました\n\n", hero.getName());
 			hero / 2;
 			heroEnhaLimit = 2;
 			heroEnhance = false;
 		}
 		if (enemyEnhaLimit <= 0) {
+			printf("%sのパラメーターが戻りました\n\n", enemy.getName());
 			enemy / 2;
 			enemyEnhaLimit = 2;
 			enemyEnhance = false;
